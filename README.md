@@ -15,4 +15,7 @@ Help: `django-admin help`
 1 - Create setup config: `django-admin startproject setup .`
 
 2 - Run server: `python manage.py runserver`
-# space
+
+3 - Help: `python manage.py help`
+
+4 - Create new app: `python manage.py startapp xpto`
