@@ -19,3 +19,5 @@ Help: `django-admin help`
 3 - Help: `python manage.py help`
 
 4 - Create new app: `python manage.py startapp xpto`
+
+5 - Collect static files: `python manage.py collectstatic`
