@@ -26,7 +26,7 @@
           <a href="{% url 'show' card.id %}">
             <img
               class="card__imagem"
-              src="{% static 'assets/imagens/galeria/'|add:card.image_url %}"
+              src="{% static '/assets/imagens/galeria/'%}{{ card.image_url }}"
               alt="foto"
             />
           </a>

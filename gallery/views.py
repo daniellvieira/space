@@ -1,5 +1,6 @@
 from re import M
-from django.shortcuts import render
+from typing import get_origin
+from django.shortcuts import render, get_object_or_404
 from .models import Photo
 
 
